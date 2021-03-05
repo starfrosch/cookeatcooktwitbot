@@ -1,0 +1,26 @@
+{
+  "name": "cookeatcooktwitbot",
+  "version": "1.0.0",
+  "description": "The fun-key cookeatcook.com Twitter bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starfrosch/cookeatcooktwitbot.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Javascript",
+    "Twitter",
+    "Bot",
+    "Cooking"
+  ],
+  "author": "Markus Koller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/starfrosch/cookeatcooktwitbot/issues"
+  },
+  "homepage": "https://github.com/starfrosch/cookeatcooktwitbot#readme"
+}
