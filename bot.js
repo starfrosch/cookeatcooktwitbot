@@ -17,7 +17,7 @@ var timerMultiplicator = 2.1;
 // find latest tweet according the query 'q' in params
 function retweet() {
     var params = {
-        q: '"#cookeatcook min_faves:2"',  // REQUIRED
+        q: '"#cookeatcook"',  // REQUIRED
         result_type: 'recent',
         lang: 'de'
     };
