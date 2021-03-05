@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/starfrosch/cookeatcooktwitbot/issues"
   },
-  "homepage": "https://github.com/starfrosch/cookeatcooktwitbot#readme"
+  "homepage": "https://github.com/starfrosch/cookeatcooktwitbot#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
 }
