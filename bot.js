@@ -326,7 +326,7 @@ function checkFollowFriends(id) {
       else {
         console.log("followFriends: friendships/create: Success: " + id);
         // message user
-        directMessageNow('Thank you for following. Zirrrrp. Solar power for my circuits. Visit my master @starfrosch https://starfrosch.com Zirrrrp. #followback #hot111. Any questions? Feel free to ask me.', id);
+        directMessageNow('Danke fürs followen. Wir kochen fair, bio, lokal und saisonal. Finde unsere Rezepte unter https://cookeatcook.com Bei Fragen sind wir gerne erreichbar. Guten Appetit', id);
       }
       })
       }
