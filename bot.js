@@ -25,7 +25,8 @@ function cook() {
     // var quantity = quantity[Math.floor(Math.random() * quantity.length)];
 
     // output result to console
-    console.log(JSON.stringify(jsonObj));
+    //console.log(JSON.stringify(jsonObj));
+    console.log(jsonObj.quantity[0]);
     console.log(jsonObj.quantity);
 
 
