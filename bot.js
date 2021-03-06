@@ -20,18 +20,21 @@ function cook() {
   // is there some data?
   if(jsonObj.hasOwnProperty('quantity')){
     // 
-    
+    var RandQuantity = jsonObj.quantity[Math.floor(Math.random() * jsonObj.quantity.length)];
+    var RandUnit = jsonObj.unit[Math.floor(Math.random() * jsonObj.unit.length)];
+    var RandIngredient = jsonObj.ingredient[Math.floor(Math.random() * jsonObj.ingredient.length)];
+    var RandAdjective = jsonObj.adjective[Math.floor(Math.random() * jsonObj.adjective.length)];
+    var RandVerb = jsonObj.verb[Math.floor(Math.random() * jsonObj.verb.length)];
 
-    var RandQuantity1 = jsonObj.quantity[Math.floor(Math.random() * jsonObj.quantity.length)];
-    var RandQuantity2 = jsonObj.quantity[Math.floor(Math.random() * jsonObj.quantity.length)];
+    var cookTweet = RandQuantity + " " + RandUnit + " " + RandIngredient + " " + RandAdjective + " " + RandVerb + ".";
+
+    console.log(cookTweet);
 
     // output result to console
-    //console.log(JSON.stringify(jsonObj));
-    console.log(RandQuantity1);
-    console.log(RandQuantity2);
-    console.log(jsonObj.quantity.length);
-    console.log(jsonObj.quantity[0]);
-    console.log(jsonObj.quantity);
+    // console.log(JSON.stringify(jsonObj));
+    // console.log(jsonObj.quantity.length);
+    // console.log(jsonObj.quantity[0]);
+    // console.log(jsonObj.quantity);
 
 
   }
