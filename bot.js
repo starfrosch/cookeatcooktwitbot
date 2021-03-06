@@ -14,23 +14,24 @@ var timerMultiplicator = 2.9;
 // Tweet BOT ==========================
 //
 function cook() {
+  // read dictionary
   var fs = require('fs');
   var jsonObj = JSON.parse(fs.readFileSync('dictionary.json', 'utf8'));
 
   // is there some data?
   if(jsonObj.hasOwnProperty('quantity')){
-    // 
+    // Get a random cooking instruction from dictionary
     var RandQuantity = jsonObj.quantity[Math.floor(Math.random() * jsonObj.quantity.length)];
     var RandUnit = jsonObj.unit[Math.floor(Math.random() * jsonObj.unit.length)];
     var RandIngredient = jsonObj.ingredient[Math.floor(Math.random() * jsonObj.ingredient.length)];
     var RandAdjective = jsonObj.adjective[Math.floor(Math.random() * jsonObj.adjective.length)];
     var RandVerb = jsonObj.verb[Math.floor(Math.random() * jsonObj.verb.length)];
-
+    // string cooking instruction
     var cookTweet = RandQuantity + " " + RandUnit + " " + RandIngredient + " " + RandAdjective + " " + RandVerb + ".";
-
-    console.log(cookTweet);
-
+    //
+    tweetNow(cookTweet + ' #cookeatcook #rezept #kochen #FoodBlogger');
     // output result to console
+    // console.log(cookTweet);
     // console.log(JSON.stringify(jsonObj));
     // console.log(jsonObj.quantity.length);
     // console.log(jsonObj.quantity[0]);
