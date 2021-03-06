@@ -315,8 +315,8 @@ pruneFriends();
 // Check for new followers on startup
 followFriends();
 
-// test
-cook();
+// test cook instruction Tweet on startup
+// cook();
 
 // Check for new followers in case we missed one
 // in every 9 minutes
