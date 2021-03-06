@@ -21,13 +21,12 @@ function cook() {
   if(jsonObj.hasOwnProperty('quantity')){
     // 
     
-    var quantity = jsonObj.values('quantity');
 
     // var quantity = quantity[Math.floor(Math.random() * quantity.length)];
 
     // output result to console
     console.log(JSON.stringify(jsonObj));
-    console.log("Quantity: " + quantity);
+    console.log(jsonObj.quantity);
 
 
   }
