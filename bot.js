@@ -22,10 +22,13 @@ function cook() {
     // 
     
 
-    // var quantity = quantity[Math.floor(Math.random() * quantity.length)];
+    var RandQuantity1 = jsonObj.quantity[Math.floor(Math.random() * jsonObj.quantity.length)];
+    var RandQuantity2 = jsonObj.quantity[Math.floor(Math.random() * jsonObj.quantity.length)];
 
     // output result to console
     //console.log(JSON.stringify(jsonObj));
+    console.log(RandQuantity1);
+    console.log(RandQuantity2);
     console.log(jsonObj.quantity.length);
     console.log(jsonObj.quantity[0]);
     console.log(jsonObj.quantity);
