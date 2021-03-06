@@ -14,7 +14,9 @@ var timerMultiplicator = 2.9;
 // Tweet BOT ==========================
 //
 function cook() {
-  var jsonObj = require("dictionary.json");
+  var fs = require('fs');
+  var jsonObj = JSON.parse(fs.readFileSync('dictionary.json', 'utf8'));
+
   // is there some data?
   if(jsonObj.hasOwnProperty('quantity')){
     // 
