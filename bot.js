@@ -29,7 +29,7 @@ function cook() {
     // string cooking instruction
     var cookTweet = RandQuantity + " " + RandUnit + " " + RandIngredient + " " + RandAdjective + " " + RandVerb + ".";
     //
-    tweetNow(cookTweet + ' #rezept #kochen #FoodBlogger');
+    tweetNow(cookTweet + ' #rezept #kochen #FoodBlogger #WasKocheIchHeute');
     // output result to console
     // console.log(cookTweet);
     // console.log(JSON.stringify(jsonObj));
