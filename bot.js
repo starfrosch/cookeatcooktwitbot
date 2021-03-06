@@ -35,11 +35,7 @@ function cook() {
     // console.log(jsonObj.quantity.length);
     // console.log(jsonObj.quantity[0]);
     // console.log(jsonObj.quantity);
-
-
   }
-
-
 }
 
 // Tweet a receipe
@@ -317,9 +313,6 @@ pruneFriends();
 
 // Check for new followers on startup
 followFriends();
-
-// Only for test: Cook on startup
-cook();
 
 // Check for new followers in case we missed one
 // in every 9 minutes
