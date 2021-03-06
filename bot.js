@@ -314,6 +314,9 @@ pruneFriends();
 // Check for new followers on startup
 followFriends();
 
+// test
+cook();
+
 // Check for new followers in case we missed one
 // in every 9 minutes
 setInterval(followFriends, 540000 * timerMultiplicator);
