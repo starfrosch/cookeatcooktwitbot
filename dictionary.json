@@ -1,0 +1,7 @@
+{
+"quantity":[ "2", "3", "75", "100" ],
+"unit":[ "Gramm", "Deziliter", "Esslöffel", "Teelöffel", "Stück" ],
+"ingredient":[ "Nori Algen", "Zucker", "Mehl", "Eier", "Eigelb", "Eiweiss" ],
+"adjective":[ "schön", "schnell", "zügig", "heiss", "kalt", "lauwarm" ],
+"quantity":[ "kochen", "braten", "dünsten", "schwingen", "verrühren" ]
+} 

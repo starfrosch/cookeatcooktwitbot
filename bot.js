@@ -10,6 +10,33 @@ var Twitter = new twit(config);
 var friendsDiff = 0;
 // 0.5 is spam
 var timerMultiplicator = 2.9;
+//
+// Tweet BOT ==========================
+//
+function cook() {
+  var jsonObj = require("dictionary.json");
+  // is there some data?
+  if(jsonObj.hasOwnProperty('quantity')){
+    // 
+    
+    var quantity = jsonObj.values('quantity');
+
+    // var quantity = quantity[Math.floor(Math.random() * quantity.length)];
+
+    // output result to console
+    console.log(JSON.stringify(jsonObj));
+    console.log("Quantity: " + quantity);
+
+
+  }
+
+
+}
+
+// Tweet a receipe
+// Tweet every day
+var dayInMilliseconds = 1000 * 60 * 60 * 24;
+setInterval(cook, dayInMilliseconds);
 
 //
 // RETWEET BOT ==========================
@@ -281,6 +308,9 @@ pruneFriends();
 
 // Check for new followers on startup
 followFriends();
+
+// Only for test: Cook on startup
+cook();
 
 // Check for new followers in case we missed one
 // in every 9 minutes
