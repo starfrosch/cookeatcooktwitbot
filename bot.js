@@ -26,6 +26,7 @@ function cook() {
 
     // output result to console
     //console.log(JSON.stringify(jsonObj));
+    console.log(jsonObj.quantity.length);
     console.log(jsonObj.quantity[0]);
     console.log(jsonObj.quantity);
 
